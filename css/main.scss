@@ -57,3 +57,16 @@ pre.highlight code,
   border: 3px solid #fff;
   border-radius:100%;
 }
+
+.panel-cover--twitter {
+  width: 20%;
+  max-width: 350px;
+  right: 0px;
+  background: top right no-repeat;
+}
+
+@media screen and (max-width: 1300px) {
+  .panel-cover--twitter {
+    display: none;
+  }
+}
